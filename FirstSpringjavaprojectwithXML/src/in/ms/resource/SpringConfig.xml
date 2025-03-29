@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    
+    <bean id="StdId" class="in.ms.beans.Student">
+    <property name="name" value="Mahesh"/>
+    <property name="flag" value="true"/>
+    <property name="marks" value="8965.3254d"/>
+    </bean>
+    
+    <bean id="StdId1" class="in.ms.beans.Student">
+    <property name="name" value="Umesh"/>
+    <property name="flag" value="false"/>
+    <property name="marks" value="897415.21487d"/>
+    </bean>
+</beans>
